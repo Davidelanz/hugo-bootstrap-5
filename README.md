@@ -1,50 +1,31 @@
-# Hugo Bootstrap v5 Theme
+# Hugo Bootstrap v5 Template
 
-This is a simple Hugo [Bootstrap v5](https://getbootstrap.com/) theme, inspired by [hugo-bootstrap](https://github.com/AuthorGithub/hugo-bootstrap) and [hugo-bootstrap-5](https://github.com/NotWoods/hugo-bootstrap-5).
+This is a simple Hugo [Bootstrap v5](https://getbootstrap.com/) template, inspired by [hugo-bootstrap](https://github.com/AuthorGithub/hugo-bootstrap) and [hugo-bootstrap-5](https://github.com/NotWoods/hugo-bootstrap-5).
 
-## Installation
 
-From the root of your Hugo site, you can install the theme by typing the following command:
+[![Netlify Status]()](https://app.netlify.com/sites/davidelanz-hugo-bootstrap-5/deploys)
+[![Linting](https://github.com/Davidelanz/hugo-bootstrap-5/actions/workflows/super-linter.yml/badge.svg)](https://github.com/Davidelanz/hugo-bootstrap-5/actions/workflows/super-linter.yml)
 
-```shell
-git submodule add https://github.com/Davidelanz/hugo-bootstrap-5.git themes/hugo-bootstrap-5
-git submodule init
-git submodule update
-```
+This is a template repository for easily set up a Hugo site with Bootstrap 5 support and locally testing it with Docker
 
-Then, to update the theme to the latest version:
+## Usage
 
-```
-$ git submodule update --remote themes/hugo-bootstrap-5
-```
+1. Install [Docker](https://docs.docker.com/get-docker/)
+2. Install [Docker Compose](https://docs.docker.com/compose/install/)
+3. Clone this repository
+   ```sh
+   git clone https://github.com/Davidelanz/hugo-bootstrap-5.git
+   ```
+4. Run dockerized local webserver with
+   ```sh
+   cd hugo-bootstrap-5
+   docker-compose up
+   ```
+5. Your site is locally deployed at http://localhost:1313.
 
-## Demo
+You can then start developing your Hugo site in the `/site` folder.
 
-You can find a demo STILL NOWHERE.
+## Production Deployment
 
-## Screenshots
-
-![preview](https://raw.githubusercontent.com/Davidelanz/hugo-bootstrap-5/master/images/screenshot.png)
-![preview](https://raw.githubusercontent.com/Davidelanz/hugo-bootstrap-5/master/images/screenshot2.png)
-
-## Configuration
-
-Check `example_site/config.toml` for an example configuration.
-
-## Brand
-
-The brand can be overriden by adding your own layout `layouts/partials/brand.html`. Check `example_site/layouts/partials/brand.html` for an example.
-
-## Menu
-
-The navbar displays the `main` menus by default. You can find more details about how to configure it [here](https://gohugo.io/templates/menu-templates/), as well as in the `example_site`.
-
-## Multilanguage
-
-The theme supports multiple languages.
-
-You can find the default translation bundles in `i18n` (english and spanish by default).
-
-## License
-
-Open sourced under the [MIT license](./LICENSE.md).
+You can deploy the site contained in this repository via [netlify](https://docs.netlify.com/).
+The `netlify.toml` configuration file takes already care of the build settings.
