@@ -3,7 +3,7 @@
 This is a simple Hugo [Bootstrap v5](https://getbootstrap.com/) template, inspired by [hugo-bootstrap](https://github.com/AuthorGithub/hugo-bootstrap) and [hugo-bootstrap-5](https://github.com/NotWoods/hugo-bootstrap-5).
 
 
-[![Netlify Status]()](https://app.netlify.com/sites/davidelanz-hugo-bootstrap-5/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2006569e-0f86-4b4e-9b5c-91ca230d0adf/deploy-status)](https://app.netlify.com/sites/davidelanz-hugo-bootstrap-5/deploys)
 [![Linting](https://github.com/Davidelanz/hugo-bootstrap-5/actions/workflows/super-linter.yml/badge.svg)](https://github.com/Davidelanz/hugo-bootstrap-5/actions/workflows/super-linter.yml)
 
 This is a template repository for easily set up a Hugo site with Bootstrap 5 support and locally testing it with Docker
