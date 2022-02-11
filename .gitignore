@@ -1,0 +1,5 @@
+node_modules/
+dist/
+example_site/themes
+example_site/public
+.hugo_build.lock

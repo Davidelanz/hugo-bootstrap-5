@@ -1,0 +1,10 @@
+hugo:
+  image: klakegg/hugo:ext-ubuntu-onbuild
+  command: server
+  volumes:
+    - ./site:/src
+  environment:
+    - HUGO_REFRESH_TIME=3600
+    - HUGO_BASEURL=mydomain.com
+  ports:
+    - "1313:1313"

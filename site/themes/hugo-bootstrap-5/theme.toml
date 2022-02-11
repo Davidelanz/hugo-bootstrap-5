@@ -1,0 +1,17 @@
+description = "A simple hugo theme using Bootstrap 5"
+features = ["blog", "responsive", "Google Analytics", "bootstrap", "multilingual", "i18n"]
+homepage = "https://github.com/Davidelanz/hugo-bootstrap-5"
+license = "MIT"
+licenselink = "https://github.com/Davidelanz/hugo-bootstrap-5/blob/master/LICENSE.md"
+min_version = 0.56
+name = "Hugo Bootstrap 5"
+tags = ["blog", "multilingual", "bootstrap"]
+
+[author]
+homepage = "https://github.com/Davidelanz"
+name = "Davide Lanza"
+
+[original]
+author = "Mihail Cristian Dumitru"
+homepage = "https://github.com/Xzya"
+repo = "https://github.com/Xzya/hugo-bootstrap"
